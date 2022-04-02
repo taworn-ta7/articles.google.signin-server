@@ -1,0 +1,17 @@
+{
+    "name": "littlegoo_server",
+    "version": "1.0.0",
+    "description": "the Littlegoo server",
+    "main": "./src/index.js",
+    "scripts": {
+        "start": "node ./src"
+    },
+    "keywords": [],
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-async-handler": "^1.1.4",
+        "node-fetch": "^2.6.1",
+        "query-string": "^7.1.1"
+    }
+}
